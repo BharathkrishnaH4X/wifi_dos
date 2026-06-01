@@ -2,35 +2,11 @@
 
 A Python-based wireless network testing in Ethical Hacking and Cybersecurity
 
-## Features
-
-* Detect available wireless interfaces
-* Enable monitor mode automatically
-* Scan nearby wireless access points
-* Display BSSID, channel, and ESSID information
-* Continuous wireless monitoring
-* CSV logging support
-
 ## Technologies Used
 
 * Python 3
-* Aircrack-ng
+* Aircrack-ng - airmon-ng, airodump-ng, aireplay-ng
 * Linux / Kali Linux
-
-## Requirements
-
-Before running the tool, install the required packages:
-
-```bash
-sudo apt update
-sudo apt install aircrack-ng wireless-tools
-```
-
-Python version:
-
-```bash
-python3 --version
-```
 
 ## Installation
 
@@ -46,11 +22,22 @@ Move into the project directory:
 cd wifi_dos
 ```
 
+Change the mode of File:
+```bash
+chmod +x *
+```
+
+Update the dependencies
+```bash
+./update.sh
+```
+
 Run the program:
 
 ```bash
 sudo python3 wifi.py
 ```
+
 Restart Network Manager:
 ```bash
 sudo systemctl restart NetworkManager.service
@@ -81,3 +68,7 @@ The author is not responsible for misuse of this software.
 ## Author
 
 GitHub: BharathkrishnaH4X
+
+## Copyrights
+
+BharathkrishnaH4X, 2026
