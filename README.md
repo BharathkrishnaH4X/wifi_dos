@@ -51,6 +51,10 @@ Run the program:
 ```bash
 sudo python3 wifi.py
 ```
+Restart Network Manager:
+```bash
+sudo systemctl restart NetworkManager.service
+```
 
 ## Supported Environment
 
