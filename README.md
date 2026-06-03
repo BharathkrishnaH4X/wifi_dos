@@ -13,13 +13,13 @@ A Python-based wireless network testing in Ethical Hacking and Cybersecurity
 Clone the repository:
 
 ```bash
-git clone https://github.com/BharathkrishnaH4X/wifi_dos.git
+git clone https://github.com/BharathkrishnaH4X/Heisenberg-wifi_dos.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd wifi_dos
+cd Heisenberg-wifi_dos
 ```
 
 Change the mode of File:
@@ -35,7 +35,7 @@ Update the dependencies
 Run the program:
 
 ```bash
-sudo python3 wifi.py
+sudo python3 heisenberg-wifi_dos.py
 ```
 
 Restart Network Manager:
